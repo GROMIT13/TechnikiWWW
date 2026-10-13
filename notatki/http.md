@@ -19,9 +19,17 @@ Pytanie: dlaczego github.com odpowiada inaczej niż info.cern.ch?
 Ponieważ github.com wymaga użycia https a info.cern.ch nie. Zatem próba połączenia się z github.com poprzez http zwróci powiadomienie o przekierowaniu.
 
 # Ćwiczenie 3
-info.cern.ch:
-liczba żądań: 2 (1 obraz, 1 html)
-przesłane dane: 2.25 kB
-czas ładowania: 0.24 s
-elementy DOM: 
-najcięższy plik (typ):
+
+| pomiar                | info.cern.ch | spacejam.com/1996 | onet.pl  |
+|-----------------------|--------------|-------------------|----------|
+| liczba żądań          | 2            | 5                 | 212      |
+| przesłane dane (kB)   | 2.25         | 6.77              | 2,073.45 |
+| czas ładowania        | 0.42 s       | 1.93 s            | 8.60 s   |
+| elementy DOM          | 16           | 119               | 1499     |
+| najcięższy plik (typ) | obraz        | html              | json     |
+
+2–3 zdania: co Cię zaskoczyło i skąd ta różnica.
+Strona spacejam.com/1996 zawiera wiele obrazów > 5 a liczba żądań obrazów to 2.
+onet.pl posiada zancząco więcej żądań w porównaniu z innymi sprawdzonymi stronami poniewarz jest to strona bardziej nowoczesna i może pozwolić na używanie większej ilości ramu.
+Największy plik na info.cern.ch to obraz który jest ikoną wyświetlającą się na pasku strony.
+
