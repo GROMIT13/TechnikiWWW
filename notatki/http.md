@@ -20,7 +20,7 @@ Ponieważ github.com wymaga użycia https a info.cern.ch nie. Zatem próba poł�
 
 # Ćwiczenie 3
 
-| pomiar                | info.cern.ch | spacejam.com/1996 | onet.pl  |
+| **pomiar**            | **info.cern.ch** | **spacejam.com/1996** | **onet.pl**  |
 |-----------------------|--------------|-------------------|----------|
 | liczba żądań          | 2            | 5                 | 212      |
 | przesłane dane (kB)   | 2.25         | 6.77              | 2,073.45 |
